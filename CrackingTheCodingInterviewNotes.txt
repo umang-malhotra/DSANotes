@@ -1,0 +1,10 @@
+String is immutable in Java. There is no direct method to sort a String.
+To sort a String create a different String as follows - 
+
+public String sort(String s){
+     char[] chars = s.toCharArray();
+     Arrays.sort(chars);
+     return new String(chars);
+}
+
+
