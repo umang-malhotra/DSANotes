@@ -1,4 +1,4 @@
-package CodingQuestions;
+package src.CodingQuestions;
 
 /**
  * Problem Statement
